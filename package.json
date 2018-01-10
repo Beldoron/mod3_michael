@@ -1,0 +1,29 @@
+{
+  "name": "mobile_web_app",
+  "devDependencies": {
+    "live-server": "^1.2.0",
+    "node-sass": "^4.7.2",
+    "npm-run-all": "^4.1.2"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {},
+  "scripts": {
+    "dev": "npm-run-all --parallel dev:css dev:server",
+    "dev:server": "firebase serve",
+    "dev:css": "node-sass -w public/scss/style.scss public/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Beldoron/mod3_michael.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Beldoron/mod3_michael/issues"
+  },
+  "homepage": "https://github.com/Beldoron/mod3_michael#readme",
+  "description": ""
+}
+
+
