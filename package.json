@@ -11,6 +11,7 @@
   "scripts": {
     "dev": "npm-run-all --parallel dev:css dev:server",
     "dev:server": "firebase serve",
+    "dev:proxy" : "cd public && live-server --proxy=localhost:5000 && open http://localhost:8080",
     "dev:css": "node-sass -w public/scss/style.scss public/css/style.css"
   },
   "repository": {
@@ -25,5 +26,4 @@
   "homepage": "https://github.com/Beldoron/mod3_michael#readme",
   "description": ""
 }
-
 
