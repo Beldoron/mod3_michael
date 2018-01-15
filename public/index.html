@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>NYSL</title>
@@ -15,21 +16,71 @@
     <script defer src="/__/firebase/4.8.1/firebase-storage.js"></script>
     <!-- initialize the SDK after all desired features are loaded -->
     <script defer src="/__/firebase/init.js"></script>
+</head>
 
-   
-      <body> 
-    
-  </head>
-  <body>
-    <h1>Hello NYSL</h1>
+<body>
+<!-- /////////////////////////////////////////////////////////////////////////// -->
+    <nav class="navbar navbar-light">
+
+        <a class="navbar-left">
+          <img src="img/navbar.png" width="35" height="35" class="d-inline-block align-top navigation" onclick="openNav()"> 
+          <img src="img/nysl_logo.png" width="35" height="35" class="d-inline-block align-top navigation"></a>
+
+        
+        <div id="mySidenav" class="sidenav">
+            <img src="img/nysl_logo.png" width="40" height="40" class="d-inline-block align-top"></a>
+            <ul class="nav nav-tabs flex-column" id="myTab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#home" role="tab" aria-controls="home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#profile" role="tab" aria-controls="profile">Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#messages" role="tab" aria-controls="messages">Messages</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#settings" role="tab" aria-controls="settings">Settings</a>
+                </li>
+            </ul>
+        </div>
+        
+
+        <h2 class="center vis navigation">NYSL</h2>
+ 
+
+        <img src="img/navbartwo.png" width="42" height="32" class="navbar-right d-inline-block align-top navigation"></a>
+
+        
+    </nav>
 
 
 
+
+
+
+
+    <section id="mySection" class="visible">
+        <div id="cutterHead"></div>
+        <div class="tab-content">
+            <div class="tab-pane active" id="home" role="tabpanel">
+                <img src="img/design2_image1.jpg" width="100%" height="100%">
+                <div id="cutterHead">CONTENT1</div>
+            </div>
+            <div class="tab-pane" id="profile" role="tabpanel">
+                Seite 2
+            </div>
+            <div class="tab-pane" id="messages" role="tabpanel">
+                Seite 3
+            </div>
+            <div class="tab-pane" id="settings" role="tabpanel">
+                Seite 4
+            </div>
+        </div>
+    </section>
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
+</body>
 
-
-
-  </body>
 </html>

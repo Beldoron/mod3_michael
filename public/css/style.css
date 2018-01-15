@@ -1,2 +1,59 @@
 body {
-  background: #00ff00; }
+  background: #033949;
+  color: #ffffff; }
+
+.navbar {
+  padding-top: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 4px;
+  padding-background-color: #ffffff;
+  background-color: #033949; }
+  .navbar .navbar-brand {
+    color: #ffffff; }
+
+.center {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 3px;
+  left: 0;
+  pointer-events: none; }
+
+#cutterHead {
+  padding: 0px;
+  background-color: #A4FF4A;
+  height: 2px;
+  width: 100%; }
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #033949;
+  overflow-x: hidden;
+  transition: 0.0s;
+  padding-top: 60px;
+  opacity: 1,0; }
+
+.sidenav.visible {
+  width: 300px;
+  transition: 0.35s;
+  opacity: 1,0;
+  border-right: 2px solid #ffffff; }
+
+.visible.Section {
+  opacity: 0.3; }
+
+.navi {
+  opacity: 0.3; }
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px; }

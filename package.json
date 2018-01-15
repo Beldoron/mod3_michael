@@ -9,7 +9,7 @@
   "main": "index.js",
   "dependencies": {},
   "scripts": {
-    "dev": "npm-run-all --parallel dev:css dev:server",
+    "dev": "npm-run-all --parallel dev:css dev:server dev:proxy",
     "dev:server": "firebase serve",
     "dev:proxy" : "cd public && live-server --proxy=localhost:5000 && open http://localhost:8080",
     "dev:css": "node-sass -w public/scss/style.scss public/css/style.css"
